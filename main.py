@@ -136,5 +136,4 @@ async def on_message(msg):
                 data=buts.getButton(emojiName="✅"),
             )
 
-keep_alive()
 bot.run(token, reconnect=True)
