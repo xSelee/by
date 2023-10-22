@@ -11,10 +11,8 @@ token = "ODc2MTM2NjQ3MTMyMDc4MTIx.YnIyKQ.qlfSe3Ls5Gymqs5_ZVzkixI14s8"
 channelid = "1151501745961316473" # replace with channel where bot should send commands
 dmid = "1151501745961316473"  # open a dm channel through the self bot and copy the id of that channel, it should be in the url bar of browser discord.com/@me/dmid, or you can copy it like a normal channel id on phone
 bot = commands.Bot(
-    command_prefix="s",
-    guild_subscription_options=discord.GuildSubscriptionOptions.off(),
-    self_bot=True,
-)
+    command_prefix="s",)
+
 client = discum.Client(token=token)
 bot._skip_check = lambda x, y: False
 
