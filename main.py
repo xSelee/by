@@ -4,7 +4,6 @@ import asyncio
 import os
 from discum.utils.button import Buttoner
 from discord.ext import commands
-from keep_alive import keep_alive
 from random import choice
 
 
