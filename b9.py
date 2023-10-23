@@ -24,14 +24,14 @@ bot._skip_check = lambda x, y: False
 
 async def btall():
     while True:
-        client.sendMessage(str(channelid), ".give x_selee 1000")  # Command: .bt or .bt all
-        await asyncio.sleep(90)  # interval between each command in seconds
+        client.sendMessage(str(channelid), ".give x_selee 10000")  # Command: .bt or .bt all
+        await asyncio.sleep(2040)  # interval between each command in seconds
 
 
 async def ho():
     while True:
         client.sendMessage(str(channelid), ".bt max")  # Command: .bt or .bt all
-        await asyncio.sleep(choice([120])) 
+        await asyncio.sleep(choice([3040])) 
 
 async def cricdrop():
     while True:
