@@ -24,7 +24,7 @@ bot._skip_check = lambda x, y: False
 
 async def btall():
     while True:
-        client.sendMessage(str(channelid), ".give x_selee 1000")  # Command: .bt or .bt all
+        client.sendMessage(str(channelid), ".give xLoki 1000")  # Command: .bt or .bt all
         await asyncio.sleep(90)  # interval between each command in seconds
 
 
