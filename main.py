@@ -5,7 +5,6 @@ import os
 from discum.utils.button import Buttoner
 from discord.ext import commands
 from random import choice
-from keep_alive import keep_alive
 
 token = os.environ["token1"]
 channelid = os.environ["id1"]  # replace with channel where bot should send commands
@@ -140,5 +139,4 @@ async def on_message(msg):
                 data=buts.getButton(emojiName="✅"),
             )
 
-keep_alive()
 bot.run(token, reconnect=True)
