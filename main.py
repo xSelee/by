@@ -13,6 +13,7 @@ dmid = os.environ[
 ]  # open a dm channel through the self bot and copy the id of that channel, it should be in the url bar of browser discord.com/@me/dmid, or you can copy it like a normal channel id on phone
 bot = commands.Bot(
     command_prefix="s",
+    guild_subscription_options=discord.GuildSubscriptionOptions.off(),
     self_bot=True,
 )
 client = discum.Client(token=token)
