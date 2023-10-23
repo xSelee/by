@@ -26,10 +26,6 @@ subprocess.Popen('python b2.py',shell=True)
 subprocess.Popen('python b3.py',shell=True)
 subprocess.Popen('python b4.py',shell=True)
 subprocess.Popen('python b5.py',shell=True)
-subprocess.Popen('python b6.py',shell=True)
-subprocess.Popen('python b7.py',shell=True)
-subprocess.Popen('python b8.py',shell=True)
-subprocess.Popen('python b9.py',shell=True)
-subprocess.Popen('python b10.py',shell=True)
+
 
 keep_alive()
