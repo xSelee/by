@@ -1,4 +1,4 @@
-discord.py-self
+discord.py-self==1.9.2
 discum==1.4.1
 asyncio
 flask
