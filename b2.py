@@ -31,7 +31,7 @@ async def btall():
 async def ho():
     while True:
         client.sendMessage(str(channelid), ".bt max")  # Command: .bt or .bt all
-        await asyncio.sleep(choice([120])) 
+        await asyncio.sleep(choice([1000])) u
 
 async def cricdrop():
     while True:
