@@ -8,9 +8,9 @@ from random import choice
 from keep_alive import keep_alive
 
 token = os.environ["token5"]
-channelid = os.environ["id1"]  # replace with channel where bot should send commands
+channelid = os.environ["id5"]  # replace with channel where bot should send commands
 dmid = os.environ[
-    "id"
+    "id5"
 ]  # open a dm channel through the self bot and copy the id of that channel, it should be in the url bar of browser discord.com/@me/dmid, or you can copy it like a normal channel id on phone
 bot = commands.Bot(
     command_prefix="s",
