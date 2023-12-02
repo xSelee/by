@@ -8,7 +8,7 @@ from keep_alive import keep_alive
 from random import choice
 
 
-token = "MTE2OTYyNDU1NjY2MzczNDQyNQ.G6AgFO.MFrj152pFy8lAgOFi3iLlQwaI7XeVv8ghz3RvQ"
+token = MTE2OTYyNDU1NjY2MzczNDQyNQ.GMcKO_.R4wGd1sXg0NT-RzfQl0xWlUUivXrCwYTIEZaLs
 channelid = "1176517905702211617"  # replace with channel where bot should send commands
 dmid = "1176517905702211617"  # open a dm channel through the self bot and copy the id of that channel, it should be in the url bar of browser discord.com/@me/dmid, or you can copy it like a normal channel id on phone
 bot = commands.Bot(
