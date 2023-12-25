@@ -107,7 +107,7 @@ async def on_message(msg):
 {image}"""
             client.sendMessage(str(dmid), message)
           
-        if "Raid Boss Battle" in str(msg.embeds[0].title):
+        if "Challenging Floor" in str(msg.embeds[0].title):
             channelID = str(msg.channel.id)
             messageID = str(msg.id)
             guildId = str(msg.guild.id)
