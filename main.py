@@ -81,7 +81,7 @@ async def s(ctx):
 async def on_message(msg):
     await bot.process_commands(msg)
     if msg.embeds:
-        if "Challenging Floor" in str(msg.embeds[1].title):
+        if "Challenging Floor" in str(msg.embeds[0].title):
             channelID = str(msg.channel.id)
             messageID = str(msg.id)
             guildId = str(msg.guild.id)
