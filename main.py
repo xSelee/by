@@ -81,7 +81,7 @@ async def s(ctx):
 async def on_message(msg):
     await bot.process_commands(msg)
     if msg.embeds:
-        if "__Challenging Floor" in str(msg.embeds[0].title):
+        if "Challenging Floor" in str(msg.embeds[0].title):
             channelID = str(msg.channel.id)
             messageID = str(msg.id)
             guildId = str(msg.guild.id)
@@ -107,7 +107,7 @@ async def on_message(msg):
 {image}"""
             client.sendMessage(str(dmid), message)
           
-        if "__Challenging Floor" in str(msg.embeds[0].title):
+        if "Challenging Floor" in str(msg.embeds[0].title):
             channelID = str(msg.channel.id)
             messageID = str(msg.id)
             guildId = str(msg.guild.id)
@@ -123,7 +123,7 @@ async def on_message(msg):
                 data=buts.getButton(emojiName="âœ…"),
             )
           
-        if '''Confirmation''' in str(msg.embeds[0].title):
+        if '''Challenging Floor''' in str(msg.embeds[0].title):
             channelID = str(msg.channel.id)
             messageID = str(msg.id)
             guildId = str(msg.guild.id)
