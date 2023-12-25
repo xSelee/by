@@ -81,7 +81,7 @@ async def s(ctx):
 async def on_message(msg):
     await bot.process_commands(msg)
     if msg.embeds:
-        if "Challenging Floor" in str(msg.embeds[1].title):
+        if "**__Challenging Floor__**" in str(msg.embeds[1].title):
             channelID = str(msg.channel.id)
             messageID = str(msg.id)
             guildId = str(msg.guild.id)
@@ -94,7 +94,7 @@ async def on_message(msg):
                 guildID=guildId,
                 messageID=data["id"],
                 messageFlags=data["flags"],
-                data=buts.getButton(emojiName="✅"),
+                data=buts.getButton(emojiName="âœ…"),
             )
         if "to take on this Raid Boss!" in str(msg.embeds[0].footer.text):
             title = msg.embeds[0].title
@@ -120,7 +120,7 @@ async def on_message(msg):
                 guildID=guildId,
                 messageID=data["id"],
                 messageFlags=data["flags"],
-                data=buts.getButton(emojiName="✅"),
+                data=buts.getButton(emojiName="âœ…"),
             )
           
         if '''Confirmation''' in str(msg.embeds[0].title):
@@ -136,7 +136,7 @@ async def on_message(msg):
                 guildID=guildId,
                 messageID=data["id"],
                 messageFlags=data["flags"],
-                data=buts.getButton(emojiName="✅"),
+                data=buts.getButton(emojiName="âœ…"),
             )
 
 keep_alive()
